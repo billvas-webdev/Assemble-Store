@@ -34,4 +34,4 @@ export default class ListItems extends React.Component {
 				</form>
 		);
 	}
-}
+};

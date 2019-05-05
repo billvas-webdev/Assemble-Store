@@ -1,6 +1,7 @@
 body {
 
   background: white;
+
   @media (min-width: 22rem) {
     background-size: cover;
     background-position: 50% 50%;
@@ -9,7 +10,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1750px;
+  max-width: 100vw;
   padding: 1rem;
   display: flex;
   flex-direction: column;

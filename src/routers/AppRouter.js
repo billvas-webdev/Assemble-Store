@@ -15,7 +15,7 @@ const AppRouter = () => (
                 <Route path="/" component={Home} exact={true}/>
                 <Route path="/checkout/" component={Checkout} exact={true}/>
                 <Route path="/checkout/:id" component={Item}/>
-                <Route path="/contact" component={OrderComplete}/>
+                <Route path="/orderComplete" component={OrderComplete}/>
                 <Route component={NotFoundPage}/>
             </Switch>
         </Layout>
