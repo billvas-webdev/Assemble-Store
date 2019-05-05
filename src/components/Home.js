@@ -10,7 +10,7 @@ const Home = (props) => (
         <div className="showForMobile">{props.title}</div>
         <div className="showForDesktop">{props.subtitle1}</div>
         <div className="showForDesktop">{props.subtitle2}</div>
-        <ListItems />
+        {/* <ListItems /> */}
 
 
         </div>
