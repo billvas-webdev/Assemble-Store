@@ -13,10 +13,9 @@ const OrderComplete = (props) => (
             <a href="/">
                 Go Home</a>
         </div>
-
     </div>
 )
-OrderComplete.defaultProps = { // using default props
+OrderComplete.defaultProps = {
     title: 'Order Complete',
     content: `Hooray! Way to order those products!`
 };
