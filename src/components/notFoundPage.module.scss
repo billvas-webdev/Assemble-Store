@@ -1,6 +1,19 @@
+.listHeader {
+  h1 {
+    font-size: 2rem;
+  }
+  background: #f7f7f7;
+  border: 1px solid darken(#f7f7f7, 7%);
+  color: #666;
+  display: flex;
+  justify-content: center;
+  padding: .2rem .6rem;
+}
+
 .button {
   display: flex;
   justify-content: flex-end;
+  padding-top: 2rem;
 
   a {
     background: #245fc1;
@@ -12,18 +25,4 @@
     line-height: 1;
     padding: 1rem;
   }
-}
-
-
-.listHeader {
-  h1 {
-    font-size: 2rem;
-  }
-  background: #f7f7f7;
-  border: 1px solid darken(#f7f7f7, 7%);
-  color: #666;
-  display: flex;
-  justify-content: center;
-  padding: .2rem .6rem;
-
 }
