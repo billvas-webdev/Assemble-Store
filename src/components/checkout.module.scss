@@ -51,18 +51,24 @@ h2 {
 }
 
 .button {
-  background: #245fc1;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  display: inline-block;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 1rem;
-  text-decoration: none;
-  list-style: none;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    background: #245fc1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1rem;
+  }
 }
+
+
 
 .showForMobile {
   @media (min-width: 45rem) {
