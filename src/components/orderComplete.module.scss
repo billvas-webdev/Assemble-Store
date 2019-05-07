@@ -1,33 +1,32 @@
-.buttonLocation{
-  margin: 0 auto;
+.buttonLocation {
   a {
-    margin-right: 2rem;
     color: white;
   }
 }
 
 .content {
+  flex-grow: 1;
+}
 
-    flex-grow: 1;
-  }
-  h1 {
-    font-size: .5rem;
-  }
+h1 {
+  font-size: .5rem;
+}
 
-  .button {
-    display: flex;
-    justify-content: flex-end;
-    a {
-      background: #245fc1;
-      border: none;
-      border-radius: 5px;
-      color: white;
-      font-weight: 300;
-      font-size: 1rem;
-      line-height: 1;
-      padding: 1rem;
-    }
+.button {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    background: #245fc1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1rem;
   }
+}
 
 .listHeader {
   h1 {
@@ -39,10 +38,10 @@
   display: flex;
   justify-content: space-between;
   padding: .2rem .6rem;
-
 }
 
 p {
-  padding: 1rem 0;
+  font-size: 1.25rem;
+  margin-top: 1rem;
   text-align: center;
 }
