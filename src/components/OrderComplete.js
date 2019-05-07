@@ -9,11 +9,10 @@ const OrderComplete = (props) => (
         </div>
         <p>{props.content}</p>
         <h2>{props.subtitle}</h2>
-        <ul className={orderCompleteStyles.buttonLocation}>
-            <li>
-                <a className={orderCompleteStyles.button} href="/">Go Home</a>
-            </li>
-        </ul>
+        <div className={orderCompleteStyles.button}>
+            <a href="/">
+                Go Home</a>
+        </div>
 
     </div>
 )

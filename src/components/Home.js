@@ -3,14 +3,19 @@ import '../styles/index.scss';
 import homeStyles from './home.module.scss';
 
 const Home = (props) => (
-
+    <div className={homeStyles.content}>
     <div className={homeStyles.listHeader}>
         <div className="showForMobile">{props.title}</div>
         <div className="showForDesktop">{props.subtitle1}</div>
         <div className="showForDesktop">{props.subtitle2}</div>
-        <a className={homeStyles.button} href="/checkout">
-            Check Out</a>
-    </div>
+        </div>
+        <div className={homeStyles.button}>
+            <a href="/checkout">
+                Checkout</a>
+        </div>
+
+            </div>
+
 );
 Home.defaultProps = { // using default props
     title: 'Your Cart',
