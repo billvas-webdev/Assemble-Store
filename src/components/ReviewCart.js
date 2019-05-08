@@ -10,9 +10,9 @@ const ReviewCart = (props) => (
             <div>{props.subtitle1}</div>
             <div>{props.subtitle2}</div>
             <div>{props.subtitle3}</div>
+            <div>{props.subtitle4}</div>
         </div>
         <Cart/>
-        <div className={reviewCartStyles.listHeader}></div>
         <div className={reviewCartStyles.button}>
             <a href="/billing">
                 Checkout</a>
@@ -22,9 +22,10 @@ const ReviewCart = (props) => (
 );
 ReviewCart.defaultProps = { // using default props
     title: 'Your Cart',
-    subtitle1: 'Sku',
-    subtitle2: 'Quantity',
-    subtitle3: 'Price'
+    subtitle1: 'Item',
+    subtitle2: 'Sku',
+    subtitle3: 'Quantity',
+    subtitle4: 'Price'
 };
 
 export default ReviewCart;
