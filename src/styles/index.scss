@@ -49,10 +49,12 @@ template {
 }
 
 a {
+  margin: 0;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
 }
+
 
 a:active,
 a:hover {
@@ -76,8 +78,8 @@ dfn {
 }
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 0em;
+  margin: 0;
 }
 
 mark {
@@ -295,7 +297,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -601,6 +603,7 @@ dt {
 
 th {
   font-weight: bold;
+
 }
 
 li {
@@ -687,7 +690,7 @@ thead {
 td,
 th {
   text-align: left;
-  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  // border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
   font-feature-settings: "tnum";
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
