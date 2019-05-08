@@ -21,12 +21,13 @@ export default class ProductTable extends React.Component {
         return (
             <table>
                 <thead>
-                    {/* <tr>
+                    <tr>
+                        <th>Type</th>
                         <th>Name</th>
                         <th>Sku</th>
                         <th>Quantity</th>
                         <th>Price</th>
-                    </tr> */}
+                    </tr>
                 </thead>
                 <tbody>{rows}</tbody>
             </table>
