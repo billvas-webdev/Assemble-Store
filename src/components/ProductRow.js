@@ -13,6 +13,9 @@ export default class ProductRow extends React.Component {
 
         return (
             <tr>
+                <td>
+                    <img src={product.image} height="100" width="100" alt={product.altIMG}></img>
+                </td>
                 <td>{name}</td>
                 <td>{product.sku}</td>
                 <td>{product.quantity}</td>

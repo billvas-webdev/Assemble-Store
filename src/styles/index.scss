@@ -108,7 +108,9 @@ sup {
 }
 
 img {
-  border-style: none;
+
+  border-radius: 50%;
+  border: 10px solid transparent;
 }
 
 svg:not(:root) {
