@@ -22,7 +22,7 @@ export default class ProductTable extends React.Component {
             <table>
                 <thead>
                     <tr>
-                        <th>Type</th>
+                        <th>Category</th>
                         <th>Name</th>
                         <th>Sku</th>
                         <th>Quantity</th>
