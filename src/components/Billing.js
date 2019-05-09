@@ -9,12 +9,13 @@ const Billing = (props) => (
         </div>
         <div className={billingStyles.listHeader}>
             <form className={billingStyles.payment}>
-            <h2> Payment Information </h2>
+                <h2>
+                    {props.subtitle1}
+                </h2>
                 <label>
                     Name on Card
                     <input type="text" name="input" placeholder="Name on Card"/>
                 </label>
-
                 <label>
                     Card Number
                     <input type="text" name="input" placeholder="XXXX XXXX XXXX XXXX"/>
@@ -33,7 +34,7 @@ const Billing = (props) => (
             </form>
 
             <form className={billingStyles.shipment}>
-            <h2>Shipping Address</h2>
+                <h2>{props.subtitle2}</h2>
                 <label>
                     Name
                     <input type="text" name="input" placeholder="Full Name"/>
@@ -61,16 +62,13 @@ const Billing = (props) => (
                     Zip Code
                     <input type="text" name="input" placeholder="Zip Code"/>
                 </label>
-
             </form>
         </div>
-
         <div className={billingStyles.button}>
             <a href="/orderComplete">
                 Place Order</a>
         </div>
     </div>
-
 );
 Billing.defaultProps = { // using default props
     title: 'Check Out',
