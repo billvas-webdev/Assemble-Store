@@ -1,7 +1,5 @@
 import React from 'react';
 import FilterableProductTable from './FilterableProductTable';
-// import redShirt from '/redShirt.jpeg'
-
 
 const Cart = (props) => (<FilterableProductTable products={cart}/>);
 
