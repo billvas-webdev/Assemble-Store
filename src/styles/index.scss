@@ -78,8 +78,9 @@ dfn {
 }
 
 h1 {
-  font-size: 0em;
-  margin: 0;
+  font-size: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 mark {
