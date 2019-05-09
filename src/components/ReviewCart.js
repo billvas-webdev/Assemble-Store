@@ -1,5 +1,7 @@
 import React from 'react';
 import Cart from './Cart';
+import Subtotal from './Subtotal';
+
 import '../styles/index.scss';
 import reviewCartStyles from './reviewCart.module.scss';
 
@@ -9,6 +11,7 @@ const ReviewCart = (props) => (
             <div>{props.title}</div>
         </div>
         <Cart/>
+        <Subtotal/>
         <div className={reviewCartStyles.button}>
             <a href="/billing">
                 Checkout</a>
@@ -16,8 +19,8 @@ const ReviewCart = (props) => (
     </div>
 
 );
-ReviewCart.defaultProps = { // using default props
-    title: 'Your Cart',
+ReviewCart.defaultProps = {
+    title: 'Your Cart'
 };
 
 export default ReviewCart;
