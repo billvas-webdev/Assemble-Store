@@ -5,10 +5,9 @@ import orderCompleteStyles from './orderComplete.module.scss';
 const OrderComplete = (props) => (
     <div className={orderCompleteStyles.content}>
         <div className={orderCompleteStyles.listHeader}>
-            <h1>{props.title}</h1>
+            {props.title}
         </div>
         <p>{props.content}</p>
-        <h2>{props.subtitle}</h2>
         <div className={orderCompleteStyles.button}>
             <a href="/">
                 Go Home</a>
