@@ -8,9 +8,7 @@
   flex-grow: 1;
 }
 
-h1 {
-  font-size: .5rem;
-}
+
 
 .button {
   display: flex;
@@ -29,16 +27,13 @@ h1 {
 }
 
 .listHeader {
-  h1 {
-    font-size: 1rem;
-    font-weight: 400;
-  }
+
   background: #f7f7f7;
   border: 1px solid darken(#f7f7f7, 7%);
   color: #666;
   display: flex;
   justify-content: space-between;
-  padding: .2rem .6rem;
+  padding: 1rem 2rem;
 }
 
 p {
